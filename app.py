@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse
 #from     import HTMLResponse
 from transformers import pipeline
 
-# Initialize FastAPI app
+# Initialize FastAPI application
 app = FastAPI()
 
 # Load the Hugging Face model pipeline
